@@ -1,0 +1,10 @@
+homepage: "https://buildwithmatter.com/"
+language: c++
+primary_contact: "zifantan@google.com"
+auto_ccs:
+  - "zifantan@google.com"
+sanitizers:
+  - address
+fuzzing_engines:
+  - libfuzzer
+main_repo: 'https://github.com/project-chip/connectedhomeip.git'
